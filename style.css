@@ -8,23 +8,26 @@ body {
 }
 
 .container {
-    background: rgb(155, 150, 150);
-    max-width: 60%;
+    background: rgb(197, 179, 179);
+    max-width: 40%;
     margin: auto;
     border: 3px solid black;
     border-radius: 10px;
+    opacity: 0.95;
 }
 
 h1 {
     font-size: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-shadow: 1px 1px white;
 }
 
 h2 {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 20px;
+    text-shadow: 1px 1px white;
 }
 
 button {
@@ -37,6 +40,7 @@ button {
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    text-shadow: 1px 1px black;
 }
 
 #increment-btn {
@@ -45,8 +49,4 @@ button {
 
 #save-btn {
     background: #cf3131;
-}
-
-#save-el {
-    font-weight: bold;
 }
